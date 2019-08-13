@@ -1,0 +1,105 @@
+.nav-list{
+    margin-top: 20px;
+}
+.nav-item{
+    justify-content: space-between;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #111;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color:#d50b0b;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color:#d50b0b;
+}
+
+.teacher{
+    background: url(../images/master.jpg) no-repeat right top;
+    margin-top: 60px;
+    /* height: 545px; */
+    /* background-size: 50%; */
+    overflow: hidden;
+}
+.teacher>h2{
+    width: 262px;
+    margin-top: 230px;
+    color: #8f2528;
+    border-bottom: 1px solid #8f2528;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.teacher>p{
+    background: #707070;
+    color:#fff;
+    width: 60%;
+    padding: 30px;
+}
+.more{
+    background-color: #8f2528;
+    color:#fff;
+    width: 154px;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 39px;
+    border-radius: 0;
+}
+a.more:hover{
+    color:#fff;
+    background-color: #d50b0b;
+}
+.news-box{
+    margin-top: 60px;
+}
+.news{
+    margin-bottom: 60px;
+}
+.news>h2{
+    color: #8f2528;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.news li{
+    border-top: 1px solid #7f7f7f;
+    padding: 30px 15px 15px;
+    height: 170px;
+}
+.news li a{
+    font-size: 18px;
+    color:#000;
+    display: block;
+    margin-bottom: 17px;
+}
+.news li a:hover{
+    text-decoration: none;
+    color:#8f2528
+}
+.news li p{
+    font-size: 14px;
+    color:#6f6f6f;
+}
+.news .more{
+    margin: 20px auto 0;
+    display: block;
+}
+
+.shizi{
+    height: 473px;
+    background: url(../images/teacher-bg.png) no-repeat center;
+    overflow: hidden;
+}
+.shizi h4{
+    padding: 10px 15px;
+    width: 182px;
+    border-bottom: 1px solid #fff;
+    font-size: 36px;
+    margin:60px auto;
+}
+.shizi p{
+    font-size: 24px;
+}
+.shizi .more{
+    margin: 60px auto 0;
+    display: block;
+}
