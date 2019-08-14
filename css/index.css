@@ -27,7 +27,7 @@
     color: #8f2528;
     border-bottom: 1px solid #8f2528;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
     padding-bottom: 15px;
 }
 .teacher>p{
@@ -88,8 +88,9 @@ a.more:hover{
     height: 473px;
     background: url(../images/teacher-bg.png) no-repeat center;
     overflow: hidden;
+    margin-bottom: 60px;
 }
-.shizi h4{
+.shizi h4,.partner h4,.dynamics h4{
     padding: 10px 15px;
     width: 182px;
     border-bottom: 1px solid #fff;
@@ -102,4 +103,49 @@ a.more:hover{
 .shizi .more{
     margin: 60px auto 0;
     display: block;
+}
+.partner{
+
+}
+.partner h4,.dynamics h4{
+    color: #8f2528;
+    border-bottom-color: #8f2528;
+}
+.school-box{
+    margin-top: 45px;
+}
+.school{
+    text-align: center;
+    color:#fff;
+}
+.school>div{
+    padding: 45px 5px 0;
+    background: #c0a670;
+}
+.line{
+    width: 185px;
+    height: 1px;
+    background: #fff;
+    margin:10px auto 50px;
+}
+.school .more{
+    margin:60px auto 30px;
+    background: #dccfb4;
+}
+.school a.more:hover{
+    background: #ccc;
+}
+@media (max-width: 768px){
+    .school{
+        margin-bottom: 50px;
+        padding-left:0;
+        padding-right: 0;
+    }
+    .school>div{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .dynamics-box{
+        margin-bottom: 32px;
+    }
 }
