@@ -3,6 +3,7 @@
 }
 .nav-item{
     justify-content: space-between;
+    justify-content: space-around
 }
 .navbar-light .navbar-nav .nav-link{
     color: #111;
@@ -12,6 +13,39 @@
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
     color:#d50b0b;
+}
+.navbar-brand span{
+    display: none;
+}
+
+
+@media (min-width: 992px){
+    .nav-list{
+        /* margin-left: 3rem; */
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding-left:12px;
+        padding-right:12px;
+    }
+    .lang{
+        position: absolute;
+        right:35px;
+        top:0px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+    }
+    .lang li{
+        background: url(../images/china.png) no-repeat left center;
+        padding-left: 24px;
+    }
+    .lang li:last-child{
+        background-image: url(../images/canada.png);
+    }
+    .lang a{
+        color:#d50b0b;
+        text-decoration: none;
+    }
 }
 
 .teacher{
@@ -63,7 +97,7 @@ a.more:hover{
 .news li{
     border-top: 1px solid #7f7f7f;
     padding: 30px 15px 15px;
-    height: 170px;
+    /* height: 170px; */
 }
 .news li a{
     font-size: 18px;
@@ -90,7 +124,7 @@ a.more:hover{
     overflow: hidden;
     margin-bottom: 60px;
 }
-.shizi h4,.partner h4,.dynamics h4{
+.shizi h4,.partner h4,.dynamics h4,.contact h4{
     padding: 10px 15px;
     width: 182px;
     border-bottom: 1px solid #fff;
@@ -107,7 +141,7 @@ a.more:hover{
 .partner{
 
 }
-.partner h4,.dynamics h4{
+.partner h4,.dynamics h4,.contact h4{
     color: #8f2528;
     border-bottom-color: #8f2528;
 }
@@ -135,7 +169,13 @@ a.more:hover{
 .school a.more:hover{
     background: #ccc;
 }
-@media (max-width: 768px){
+@media (max-width: 576px){
+    .navbar-brand>img{
+        display: none;
+    }
+    .navbar-brand>span{
+        display: block;
+    }
     .school{
         margin-bottom: 50px;
         padding-left:0;
@@ -148,4 +188,40 @@ a.more:hover{
     .dynamics-box{
         margin-bottom: 32px;
     }
+    .media img{
+        display: none;
+    }
+    .news li{
+        height: auto;
+    }
+    .teacher>p{
+        width: 100%;
+    }
+    .teacher .more{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .shizi h4, .partner h4, .dynamics h4, .contact h4{
+        margin: 40px auto;
+    }
+    .contact .pl-5{
+        padding-left: 1rem !important;
+    }
+}
+.contact>div{
+    font-size: 18px;
+}
+.footer{
+    background: #515151;
+    color: #fff;
+}
+.footer>p{
+    margin-bottom: 0;
+}
+.footer a{
+    color:#fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
 }
