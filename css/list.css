@@ -21,3 +21,66 @@
 .addr{
     font-size: 14px;
 }
+
+.bread{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #a1a1a1;
+}
+.bread h4{
+    font-size: 18px;
+}
+.bread span{
+    font-size: 14px;
+}
+.bread span a{
+    color:#000;
+}
+.bread span a:hover{
+    text-decoration: none;
+}
+.news-list{
+
+}
+.news-list li{
+    border-bottom: 1px solid #d9d9d9;
+}
+.news-list h4{
+    font-size: 16px;
+}
+.news-list span{
+    font-size: 14px;
+}
+.news-list div{
+    display: flex;
+    justify-content: space-between;
+}
+.news-list a{
+    color:#000;
+}
+.news-list a:hover{
+    text-decoration: none;
+    color:#8f2528;
+}
+.news-list p{
+    font-size: 14px;
+    color: #666;
+}
+@media (max-width: 576px){
+    .bread span,.container-left,.news-list span{
+        display: none;
+    }
+}
+.page-link{
+    color:#000;
+}
+.page-item.active .page-link{
+    background-color: #8f2528;
+    border-color: #fff;
+}
+
+.title{
+    color:#9a0000;
+    font-size: 24px;
+    text-align: center;
+}
