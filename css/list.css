@@ -1,0 +1,23 @@
+.menu-list{
+    margin-bottom: 35px;
+}
+.menu-list>li{
+    border-bottom: 1px solid #5f5f5f;
+}
+.menu-list>li>a{
+    color:#000;
+    line-height: 50px;
+}
+.menu-hd{
+    background: #8f2528;
+    color: #fff;
+}
+.menu-hd>h2{
+    font-size: 24px;
+}
+.menu-hd>span{
+    font-size: 16px;
+}
+.addr{
+    font-size: 14px;
+}
