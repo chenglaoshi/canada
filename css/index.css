@@ -145,7 +145,7 @@ a.more:hover{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .dynamics-box{
+    .dynamics-box>div{
         margin-bottom: 32px;
     }
 }
